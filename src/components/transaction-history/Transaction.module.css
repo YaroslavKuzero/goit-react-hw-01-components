@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nobile&family=Roboto:wght@300;600&display=swap');
+
+.transactionHistory {
+  display: block;
+  width: 870px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  border: 1px solid #e0e6e7;
+  border-collapse: collapse;
+  color: #686461;
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.tableHead {
+  background: #00bcd4;
+  color: white;
+  padding: 10px 20px;
+  font-family: 'Nobile', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+td {
+  padding: 18px 0;
+}
+
+.item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #5c6975;
+  text-align: center;
+  font-weight: 600;
+}
+
+.itemType {
+  text-transform: capitalize;
+  text-align: start;
+  padding-left: 114px;
+}
+
+.item:nth-child(even) {
+  background: #ecf2f3;
+}
+
+td {
+  width: 290px;
+}
+
+td:not(:last-child) {
+  border-right: 1px solid #e0e6e7;
+}
+th:not(:last-child) {
+  border-right: 1px solid #e0e6e7;
+}
