@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import s from './Statistics.module.css';
+
 import backgroundColor from './getRandomBg';
+
+import s from './Statistics.module.css';
 
 const StatisticsItem = ({ label, percentage }) => (
   <li style={{ backgroundColor: backgroundColor() }} className={s.item}>
